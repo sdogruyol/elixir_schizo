@@ -6,7 +6,7 @@ defmodule SchizoTest do
     assert(Schizo.uppercase("foo") == "foo")
   end
 
-  test "uppercase converts the second word to uppercase" do
+  test "uppercase converts the second word to uppercase " do
     assert(Schizo.uppercase("foo bar") == "foo BAR")
   end
 
