@@ -1,5 +1,6 @@
 defmodule SchizoTest do
   use ExUnit.Case
+
   doctest Schizo
 
   test "uppercase doesn't change the first word" do
